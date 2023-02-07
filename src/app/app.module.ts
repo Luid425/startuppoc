@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { HomeComponent } from './home/home.component';
+import { HistoireComponent } from './histoire/histoire.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { HomeComponent } from './home/home.component';
     ConnexionComponent,
     InscriptionComponent,
     HomeComponent,
+    HistoireComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
