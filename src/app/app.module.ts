@@ -8,6 +8,7 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { HomeComponent } from './home/home.component';
 import { HistoireComponent } from './histoire/histoire.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { EtapeComponent } from './etape/etape.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     HistoireComponent,
     NavbarComponent,
+    EtapeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
